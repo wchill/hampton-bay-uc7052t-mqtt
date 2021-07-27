@@ -1,0 +1,21 @@
+// Make needed changes here and then rename to settings.h
+
+// Configure wifi settings
+#define WIFI_SSID ""
+#define WIFI_PASS ""
+#define HOSTNAME "esp8266-hamptonbay"
+#define OTA_PASSWORD ""
+#define OTA_PORT 8266
+
+// Configure MQTT broker settings
+#define MQTT_HOST ""
+#define MQTT_PORT 1883
+#define MQTT_USER ""
+#define MQTT_PASS ""
+#define MQTT_CLIENT_NAME "HAMPTONBAY"
+
+// Other settings
+#define ENABLE_OTA
+#define ENABLE_SPIWRITEREG
+#define ENABLE_DEBUGTOPIC
+#define ENABLE_AUTODISCOVERY
